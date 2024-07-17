@@ -14,7 +14,7 @@
 #include<algorithm>
 using namespace std;
 
-int MinDiff(vector<int> &arr, int n, int k) {
+int MinDiffIs(vector<int> &arr, int n, int k) {
 
         sort(arr.begin(),arr.end());
         int mini = arr[0];
@@ -46,7 +46,7 @@ int main ()
     cout<<"Enter k:";
     cin>>k;
 
-    int ans = MinDiff(v,n,k) ;
+    int ans = MinDiffIs(v,n,k) ;
     cout<<"Minimum is : "<<ans;
 
     return 0;

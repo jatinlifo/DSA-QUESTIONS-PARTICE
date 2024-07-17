@@ -12,7 +12,7 @@ using namespace std;
 class Solution{
     public:
 
-     long long maxSubarraySum(vector<int> &arr) {
+     long long maxSubarrayofSum(vector<int> &arr) {
        
        int resFirst = arr[0];
        int maxSum  = arr[0];
@@ -43,7 +43,7 @@ int main ()
 
     Solution obj;
 
-    long long  int ans = obj.maxSubarraySum(v);
+    long long  int ans = obj.maxSubarrayofSum(v);
     
     cout<<"Maximum Subarray sum: "<<ans<<endl;
     return 0;
