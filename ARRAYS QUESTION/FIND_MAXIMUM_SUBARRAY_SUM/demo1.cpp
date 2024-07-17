@@ -31,7 +31,7 @@ class Solution{
 int main ()
 {
     int n;
-    cout<<"Enter the array size;";
+    cout<<"Enter the array size:";
     cin>>n;
     vector<int> v(n);
     cout<<"Enter the elemets:";
