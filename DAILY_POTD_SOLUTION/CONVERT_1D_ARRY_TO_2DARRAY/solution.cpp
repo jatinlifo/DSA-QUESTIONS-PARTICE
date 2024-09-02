@@ -20,15 +20,12 @@
 
 // Input: original = [1,2], m = 1, n = 1
 // Output: []
-
-
 // LEETCODE NO.. = 2022
 
 #include<iostream>
 #include<vector>
 
 using namespace std;
-
 class Solution{
     public:
 
