@@ -57,7 +57,7 @@ class Solution {
     };
 
 int main () {
-
+    
     int n;
     cout<<"Enter the number of Elements in Array : ";
     cin >> n;
@@ -74,6 +74,7 @@ int main () {
     for(int i=0; i<size; i++){
         cout<<nums[i]<<" ";
     }
+    
     cout<<endl;
     return 0;
 }
